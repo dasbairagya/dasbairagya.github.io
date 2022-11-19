@@ -1,66 +1,544 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+
+<!-- Mirrored from sararu.net/neil/ by HTTrack Website Copier/3.x [XR&CO'2005], Mon, 19 Feb 2018 17:18:08 GMT -->
 <head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Neil Dove - Responsive Personal vCard Template">
+    <meta name="keywords" content="Neil Dove, resume, cv, portfolio, personal, developer, designer, onepage, clean, modern, minimal, web">
+    <meta name="author" content="Claudiu">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Neil Dove - Personal Portfolio Template</title>
 
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
-}
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/favicon.ico">
 
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-</style>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+
+    <!-- End -->
+
+    <!-- Plugin Css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <!-- End -->
+
+    <!-- Theme css -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- End -->
+
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.min.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
 </head>
+
+<!-- Body Start -->
 <body>
+    <!-- loading start -->
+    <div id="loading">
+        <div class="ripple"><img alt="" src="assets/image/loading.gif" /></div>
+    </div>
+    <!-- loading end -->
 
-<h2>HTML Table</h2>
+    <!-- Header start -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
 
-<table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
+                    <!-- Mobile Toggle -->
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <!-- / Mobile Toggle -->
+
+                    <!-- Logo  -->
+                    <h1 class="logo">
+                        <a href="javascript:void(0);">Gopal Dasbairagya</a>
+                    </h1>
+                    <!-- / Logo  -->
+                </div>
+                <!-- Navbar -->
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="current"><a href="#home">Home</a></li>
+                        <li><a  href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- / Navbar -->
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+
+    <!-- Home Section -->
+    <section id="home" class="home-banner" data-parallax="scroll" data-image-src="assets/image/homebanner2.jpg">
+        <div class="container">
+            <div class="welcome-text">
+                <h3>Hello! I'm</h3>
+                <h2>Gopal Dasbairagya</h2>
+                <div id="typed-strings">
+                    <h3 aria-hidden="true">FULLSTACK WEB DEVELOPER</h3>
+                    <h3 aria-hidden="true">MOBILE APPS DEVELOPER</h3>
+                    <h3 aria-hidden="true">FRONTEND DEVELOPER</h3>
+                    <h3 aria-hidden="true">BACKEND DEVELOPER</h3>
+                    <h3 aria-hidden="true">UX DESIGNER</h3>
+                    <h3 aria-hidden="true">WEB DEVELOPER</h3>
+
+
+                </div>
+                <h3 class="typed-text"><span id="typed"></span></h3>
+                <a href="#about" class="icon-btn">
+                    <i class="fa fa-angle-double-down"></i>
+                </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- Home Section end -->
+
+
+    <!--  About Section -->
+    <section id="about" class="section">
+        <!-- Container -->
+        <div class="container">
+            <div class="section-title left">
+                <h2>About <span>Me</span></h2>
+                <p>Few words about myself</p>
+            </div><!-- .section-title -->
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-5">
+                    <div class="pers-picture">
+                        <img src="assets/image/pers.jpg" title="" alt="" />
+                    </div><!-- .personal-pic -->
+                </div><!-- .col-xs-12 col-sm-5 -->
+
+                <div class="col-xs-12 col-sm-7">
+                    <div class="pers-info">
+                        <h3>Hello! i'm Gopal Dasbairagya</h3>
+                        <p>Professional fullstack web developer with more then 7 yrs of experience in software development.</p>
+                        <p>Involved in product development, testing, deployment and serve clients by provideing excelent software experience and technical support.</p>
+                        <div class="social-link">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div><!-- .social-link -->
+                        <div class="about-actions">
+                            <button class="m-btn contact-me">contact me</button>
+                            <button class="m-btn"><a href="assets/image/Gopal-Resume.pdf" download>download cv</a></button>
+                        </div>
+                    </div><!-- .personal-info -->
+                </div><!-- .col-xs-12 col-sm-5 -->
+
+            </div><!-- .Row -->
+        </div><!-- .Container -->
+
+    </section>
+    <!-- About Section end -->
+
+
+    <!-- Services Section-->
+    <section id="services" class="section grey-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span>Services</span></h2>
+                <p>Some of the main services I provide</p>
+            </div><!-- .section-title -->
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="service">
+                        <span class="service-icon">
+                          <i class="fa fa-laptop fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <h4>WEB DESIGN</h4>
+                        <div class="service-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. </p>
+                            <a class="m-btn" href="javascript:void(0);">Learn more</a>
+                        </div><!-- .service-desc -->
+                    </div><!-- .service -->
+                </div><!-- .col-sm-4 -->
+
+                <div class="col-sm-4">
+                    <div class="service ">
+                        <span class="service-icon">
+                          <i class="fa fa-code fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <h4>WEB DEVELOPMENT</h4>
+                        <div class="service-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. </p>
+                            <a class="m-btn" href="javascript:void(0);">Learn more</a>
+                        </div><!-- .service-desc -->
+                    </div><!-- .service -->
+                </div><!-- .col-sm-4 -->
+
+                <div class="col-sm-4">
+                    <div class="service ">
+                        <span class="service-icon">
+                          <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>
+                        </span>
+                        <h4>MOBILE APPS</h4>
+                        <div class="service-desc">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt sit amet erat malesuada interdum. </p>
+                            <a class="m-btn" href="javascript:void(0);">Learn more</a>
+                        </div><!-- .service-desc -->
+                    </div><!-- .service-box -->
+                </div><!-- .col-sm-4 -->
+
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+    <!-- Services Section end -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2><span>My</span> Resume</h2>
+                <p>My education and work experience</p>
+            </div><!-- .section-title -->
+
+            <div class="row">
+                <div class="col-sm-6 col-xs-12">
+                    <div class="resume-box">
+                        <h4>WORK</h4>
+                        <div class="timeline">
+                            <div class="entry">
+                                <div class="time on">Jan 2017 - Present</div>
+                                <div class="content"><span class="strong">red bar</span> Digital Designer</div>
+                            </div><!-- .entry -->
+
+                            <div class="entry">
+                                <div class="time">Dec 2016 - Jan 2017</div>
+                                <div class="content"><span class="strong">John's studio</span>Creative Director</div>
+                            </div><!-- .entry -->
+
+                            <div class="entry">
+                                <div class="time">Aug 2015 - Dec 2015</div>
+                                <div class="content"><span class="strong">cubic area</span>Ux-architecht </div>
+                            </div><!-- .entry -->
+
+                            <div class="entry">
+                                <div class="time">Aug 2014 - Jul 2015</div>
+                                <div class="content"><span class="strong">red bar</span> Digital Designer</div>
+                            </div><!-- .entry -->
+                        </div><!-- .timeline -->
+                    </div><!-- .resume-box -->
+                </div><!-- .col-sm-6 col-xs-12 -->
+
+                <div class="col-sm-6 col-xs-12">
+                    <div class="resume-box">
+                        <h4>EDUCATION</h4>
+                        <div class="timeline">
+                            <div class="entry">
+                                <div class="time on">Jan 2015 - August 2016</div>
+                                <div class="content"><span class="strong">blue star</span> Advanced UI courses</div>
+                            </div><!-- .entry -->
+
+                            <div class="entry">
+                                <div class="time">Dec 2013 - Jan 2015</div>
+                                <div class="content"><span class="strong">University of arts</span>Masters in arts</div>
+                            </div><!-- .entry -->
+
+                            <div class="entry">
+                                <div class="time">Aug 2010 - Dec 2013</div>
+                                <div class="content"><span class="strong">university of arts</span>Bachelor in arts </div>
+                            </div><!-- .entry -->
+
+                            <div class="entry">
+                                <div class="time">Aug 2006 - Jul 2010</div>
+                                <div class="content"><span class="strong">COLLEGE OF ARTS</span> Under graduate program</div>
+                            </div><!-- .entry -->
+                        </div><!-- .timeline -->
+                    </div><!-- .resume-box -->
+                </div><!-- .col-sm-6 col-xs-12 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+    <!-- Resume Section end -->
+
+
+    <!-- Work Section -->
+    <section id="work" class="section grey-bg">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span>Portfolio</span></h2>
+                <p>Some of the projects i recently worked on</p>
+            </div><!-- .section-title -->
+
+            <div class="portfolio-box">
+                <div class="filter">
+                    <button type="button" class="control m-btn" data-filter="all">All</button>
+                    <button type="button" class="control m-btn" data-filter=".illustration">Illustration</button>
+                    <button type="button" class="control m-btn" data-filter=".photoshop">Photoshop</button>
+                    <button type="button" class="control m-btn" data-filter=".website">Website</button>
+                    <button type="button" class="control m-btn" data-filter=".apps">Apps</button>
+                </div><!-- .filter -->
+
+                <div class="portfolio-filter">
+                    <div class="row">
+                        <div class="col-sm-4 col-xs-6 mix illustration">
+                            <div class="portfolio-elem animate">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/image/illustration.jpg" title="" alt="" />
+                                </a>
+                                <div class="hover">
+                                    <h4>Illustration Work</h4>
+                                    <label>illustration</label>
+                                </div>
+                            </div>
+                        </div><!-- .col-sm-4 col-sm-12 -->
+                        <div class="col-sm-4 col-xs-6 mix photoshop">
+                            <div class="portfolio-elem animate second">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/image/photoshop.jpg" title="" alt="" />
+                                </a>
+                                <div class="hover">
+                                    <h4>Photoshop Work</h4>
+                                    <label>photoshop</label>
+                                </div>
+                            </div>
+                        </div><!-- .col-sm-4 col-sm-12 -->
+                        <div class="col-sm-4 col-xs-6 mix illustration">
+                            <div class="portfolio-elem animate third">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/image/illustration1.jpg" title="" alt="" />
+                                </a>
+                                <div class="hover">
+                                    <h4>Illustration Work</h4>
+                                    <label>illustration</label>
+                                </div>
+                            </div>
+                        </div><!-- .col-sm-4 col-sm-12 -->
+
+                        <div class="col-sm-4 col-xs-6 mix photoshop">
+                            <div class="portfolio-elem animate">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/image/photoshop1.jpg" title="" alt="" />
+                                </a>
+                                <div class="hover">
+                                    <h4>Photoshop Work</h4>
+                                    <label>photoshop</label>
+                                </div>
+                            </div>
+                        </div><!-- .col-sm-4 col-sm-12 -->
+                        <div class="col-sm-4 col-xs-6 mix website">
+                            <div class="portfolio-elem animate second">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/image/website.jpg" title="" alt="" />
+                                </a>
+                                <div class="hover">
+                                    <h4>Website Work</h4>
+                                    <label>Website</label>
+                                </div>
+                            </div>
+                        </div><!-- .col-sm-4 col-sm-12 -->
+                        <div class="col-sm-4 col-xs-6 mix apps">
+                            <div class="portfolio-elem animate third">
+                                <a href="javascript:void(0);">
+                                    <img src="assets/image/app.jpg" title="" alt="" />
+                                </a>
+                                <div class="hover">
+                                    <h4>Apps Work</h4>
+                                    <label>App</label>
+                                </div>
+                            </div>
+                        </div><!-- .col-sm-4 col-xs-6 -->
+
+                    </div><!-- .row -->
+                </div><!-- .portfolio-filter -->
+
+            </div><!-- .portfolio-box -->
+        </div><!-- .container -->
+    </section>
+    <!-- Work Section end -->
+
+
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span>Blog</span></h2>
+                <p>Some random thoughts of mine</p>
+            </div><!-- .section-title -->
+            <div class="row">
+                <div class="col-sm-4 col-sm-12">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/image/blog3.jpg" title="Blog" alt="Blog" />
+                        </div><!-- .blog-img -->
+                        <div class="blog-contents">
+                            <h3>New Bog For Web Designer</h3>
+                            <div class="blog-meta">
+                                <p>Posted On 25th Oct 2017</p>
+                            </div>
+                            <div class="blog-desc">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ...</p>
+                            </div>
+                            <div class="blog-action">
+                                <a href="#" class="m-btn">Read More</a>
+                            </div>
+                        </div><!-- .blog-contents -->
+                    </div><!-- .blog-item -->
+                </div><!-- .col-sm-4 col-sm-12 -->
+
+                <div class="col-sm-4 col-sm-12">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/image/blog2.jpg" title="Blog" alt="Blog" />
+                        </div><!-- .blog-img -->
+                        <div class="blog-contents">
+                            <h3>Latest Mobile Apps</h3>
+                            <div class="blog-meta">
+                                <p>Posted On 25th Oct 2017</p>
+                            </div>
+                            <div class="blog-desc">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ...</p>
+                            </div>
+                            <div class="blog-action">
+                                <a href="#" class="m-btn">Read More</a>
+                            </div>
+                        </div><!-- .blog-contents -->
+                    </div><!-- .blog-item -->
+                </div><!-- .col-sm-4 col-sm-12 -->
+
+                <div class="col-sm-4 col-sm-12">
+                    <div class="blog-item">
+                        <div class="blog-img">
+                            <img src="assets/image/blog1.jpg" title="Blog" alt="Blog" />
+                        </div><!-- .blog-img -->
+                        <div class="blog-contents">
+                            <h3>You Need Website For Your Business</h3>
+                            <div class="blog-meta">
+                                <p>Posted On 25th Oct 2017</p>
+                            </div>
+                            <div class="blog-desc">
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy ...</p>
+                            </div>
+                            <div class="blog-action">
+                                <a href="#" class="m-btn">Read More</a>
+                            </div>
+                        </div><!-- .blog-contents -->
+                    </div><!-- .blog-item -->
+                </div><!-- .col-sm-4 col-sm-12 -->
+            </div><!-- .row -->
+        </div><!-- .container -->
+    </section>
+    <!-- Blog Section end -->
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section grey-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h2><span>Contact</span> Me</h2>
+                        <p>Let's get in touch</p>
+                    </div>
+                </div>
+            </div><!-- .row -->
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <!-- Contact form starts -->
+                    <div class="contact-form">
+
+                        <form id="contact-form" name="contact-form" method="POST" data-name="Contact Form">
+                            <div class="form-group in_name">
+                                <input type="text" name="name" class="form-control" id="name" placeholder="Name" required="required">
+                            </div>
+                            <div class="form-group in_email">
+                                <input type="email" name="email" class="form-control" id="email" placeholder="Email" required="required">
+                            </div>
+                            <div class="form-group in_message">
+                                <textarea rows="5" name="message" class="form-control" id="message" placeholder="Message" required="required"></textarea>
+                            </div>
+                            <div class="actions">
+                                <input type="submit" value="Send Message" name="submit" id="submitButton" class="btn" title="Submit Your Message!">
+                            </div>
+                        </form>
+                        
+                        <!-- Submition status -->
+                        <div id="form-messages"></div>
+
+                    </div>
+                </div><!-- .col-md-8 -->
+
+            </div><!-- .row -->
+
+        </div><!-- .container -->
+    </section>
+    <!-- Contact Section end -->
+
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+
+            <div class="address">
+                <div class="address-box clearfix">
+                    <p>1592 N Elm St, Carolina, 12345, United States</p>
+                </div>
+                <div class="address-box clearfix">
+                    <p><a href="tel:015110022">+00 123-456-789</a></p>
+                </div>
+                <div class="address-box clearfix">
+                    <p><a href="mailto:email@yourdomain.com">email@yourdomain.com</a></p>
+                </div>
+                <div class="address-box clearfix">
+                    <p><a href="http://www.yourdomain.com/">www.yourdomain.com</a></p>
+                </div>
+            </div><!-- .address -->
+
+        </div><!-- .container -->
+        <p class="copyright">&copy; 2017 Copyright Neil Dove</p>
+    </footer><!-- .footer-area -->
+    <!-- Footer Section end -->
+
+
+
+
+
+
+    <!-- Jquery -->
+    <script src="assets/js/jquery.js"></script>
+    <!-- End -->
+
+    <!-- Plugin JS -->
+    <script src="assets/js/bootstrap.js"></script><!--bootstrap-->
+    <script src="assets/js/parallax.min.js"></script><!-- parallax library -->
+    <script src="assets/js/typed.min.js"></script><!-- typed library -->
+    <script src="assets/js/mixitup.min.js"></script><!-- mixitup -->
+    <script src="assets/js/jquery.viewportchecker.min.js"></script><!-- viewportchecker -->
+
+    <!-- End -->
+
+    <!-- Theme Js -->
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <!-- End -->
 
 </body>
-</html>
+<!-- Body End -->
 
+<!-- Mirrored from sararu.net/neil/ by HTTrack Website Copier/3.x [XR&CO'2005], Mon, 19 Feb 2018 17:18:08 GMT -->
+</html>
