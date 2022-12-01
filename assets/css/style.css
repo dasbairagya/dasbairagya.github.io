@@ -1,7 +1,7 @@
 /* ----------------------------------------------------------------------------------------
-* Author        : ClaudiuSararu
-* Template Name : Neil Dove - Personal One Page Portfolio Template
-* File          : NeilDove main CSS file
+* Author        : Gopal Dasbairagya
+* Template Name : Gopal Dasbairagya - Personal One Page Portfolio Template
+* File          : Gopal main CSS file
 * Version       : 1.0
 * ---------------------------------------------------------------------------------------- */
 /* INDEX
@@ -559,6 +559,16 @@ p {
 /*-------------------------------------------------------*/
 /* Resume section */
 /*-------------------------------------------------------*/
+.profile-picture img {
+  /* position: relative; */
+  margin-top: 70px;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+.resume-actions{
+  margin-top: 10px;
+}
 
 .resume-box {
   padding: 20px;
