@@ -647,7 +647,7 @@ p {
 }
 .timeline .entry .content {
   padding-top: 0px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   font-size: 15px;
 }
 .timeline .entry .time:before {
