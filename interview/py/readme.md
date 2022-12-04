@@ -44,15 +44,57 @@ Pickle module accepts any Python object and converts it into a string representa
 
 ### What can you do with Pyton?
  1. Web Development => {Django and Flask webframwork}
+
  2. Machine Larning => {e.g developing a program that recognize what is in the picture | Face Recognition | Voice Recognition}
-	--Popolar ML algorithms => {Neural network, Deep learning, Support vector machines, Random forest}
-	--Popular machine learning libraries => {Scikit-learn, TensorFlow}
-	--Course at coursera => {Stanford's or Caltech's ML course or kaggle.com}
+
+	- Popolar ML algorithms => {Neural network, Deep learning, Support vector machines, Random forest}
+
+	- Popular machine learning libraries => {Scikit-learn, TensorFlow}
+
+	- Course at coursera => {Stanford's or Caltech's ML course or kaggle.com}
+
  3. Data Analysis/Visualizatio =>{Graphical representation of sales volume by male and female on a perticular day of a product of a company}
-	--Popular Data Visualization libraries => {Matplotlib, Seaborn}
+
+	- Popular Data Visualization libraries => {Matplotlib, Seaborn}
+
  4. Scripting => {It referse to writing a small program that is design to automate simple task e.g counting the numbers of email containg certain keywords}
+
  5. Game Development
-	--Popular game development libraries => {Pygame}
+	- Popular game development libraries => {Pygame}
+
  6. Desktop Application
-	--Popular desktop application libraries => {Tkinter, QT}: Javascript is more recomended to build this kind of application.
+	- Popular desktop application libraries => {Tkinter, QT}: Javascript is more recomended to build this kind of application.
+
  7. Embedded Application => {Python work well with Raspberry Pi: popular application for hardware hobbyists}
+
+
+ ### What are python collection data types?
+
+ There are four collection data types in the Python programming language:
+
+List - is a collection which is ordered and changeable. Allows duplicate members.
+
+Tuple - is a collection which is ordered and unchangeable. Allows duplicate members.
+
+Set - is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+
+Dictionary- is a collection which is ordered** and changeable. No duplicate members.
+
+### As tuple is unchangeable so how to change tuple value then?
+
+Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+
+But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple.
+
+```
+x = ("apple", "banana", "cherry")
+y = list(x)
+y[1] = "kiwi"
+x = tuple(y)
+
+print(x)
+
+
+Note: ("apple") - this is not a tuple but ("apple",) - is a tuple
+```
+
