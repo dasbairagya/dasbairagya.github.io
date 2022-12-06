@@ -71,14 +71,30 @@ Pickle module accepts any Python object and converts it into a string representa
  ### What are python collection data types?
 
  There are four collection data types in the Python programming language:
+```
+what is list?
 
-List - is a collection which is ordered and changeable. Allows duplicate members.
+list is a sequence data types which used to store the collection of data
+    - allow duplicates
+    - mutable
 
-Tuple - is a collection which is ordered and unchangeable. Allows duplicate members.
+what is tuple?
+tuple is a collection of ordered and immutable object
+    - allow duplicates
+    - immutable
+    - there is trick to change the item by converting to list
 
-Set - is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+what is set?
+set is an unordered collection of object which does not allow duplicates
+    - no duplicates
+    - immutable but can add{using add() or update()} or remove{e.g. myset.remove()} items
 
-Dictionary- is a collection which is ordered** and changeable. No duplicate members.
+what is dictionalry?
+python dictionaly is ordered collection of items used to store data in key-value pair.
+
+    - no duplicates
+    - mutable
+```
 
 ### As tuple is unchangeable so how to change tuple value then?
 
